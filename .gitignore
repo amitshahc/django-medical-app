@@ -1,0 +1,35 @@
+/.env
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.log
+# Django
+db.sqlite3
+media/
+staticfiles/
+# Tailwind / Node
+node_modules/
+*.map
+# Environment
+.env
+.env.*
+venv/
+ENV/
+.venv/
+# VSCode
+.vscode/
+# macOS
+.DS_Store
+# Migrations (Optional - keep if versioning DB schema)
+# Uncomment if you want to ignore migrations initially
+# */migrations/*.py
+# !*/migrations/__init__.py
+# Byte-compiled / cache
+*.egg-info/
+.eggs/
+dist/
+build/
